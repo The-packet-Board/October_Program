@@ -61,7 +61,7 @@ class SpookyApp:
 
         
     def show_dialog(self):
-        # self.spooky_beeps()
+        self.spooky_beeps()
         dialog = tk.Toplevel(self.root)
         dialog.configure(bg='black')  # Spooky background color
         # Get screen width and height
