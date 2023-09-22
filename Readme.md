@@ -89,10 +89,12 @@ The function keeps a count of the dialog apparitions using the dialog_count attr
 The show_dialog(self): function encapsulates the essence of HackO'Lantern's spooky interaction with the user, making it a central part of the scareware experience.
 
 exit_app(self, event): Exits the application when the F9 key is pressed.
+
 ![image](https://github.com/The-packet-Board/October_Program/assets/30883926/488f1eb0-8882-45cd-9fd1-7e45a5e0af1a)
 
 
 run(self): Initiates the spooky sequence by calling show_dialog and fake_delete_files, and starts the Tkinter main loop.
+
 ![image](https://github.com/The-packet-Board/October_Program/assets/30883926/fb28e7c4-9b61-4581-9854-ff8066464624)
 
 ## SPICING UP THE SPOOKINESS:
